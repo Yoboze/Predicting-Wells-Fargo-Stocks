@@ -9,9 +9,9 @@ The train set and test set were divided on July 16, 2021. This means that there 
     **Bidirectional LSTM as the Decoder:** Processes the input from the ACNN encoder, capturing long-term time series features and temporal dependencies.
 
 **Purpose of Each Component:**
-    CNN: Extracts deep features from the original stock data.
-    LSTM: Mines long-term time series features.
-    XGBoost: Fine-tunes the predictions for enhanced accuracy.
+- CNN: Extracts deep features from the original stock data.
+- LSTM: Mines long-term time series features.
+- XGBoost: Fine-tunes the predictions for enhanced accuracy.
 
 
 **Modification of model:**
