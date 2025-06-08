@@ -5,6 +5,7 @@ The train set and test set were divided on July 16, 2021. This means that there 
 
 **Description of the Model Architecture:**
     **Attention-based CNN (ACNN) as the Encoder:** Utilizes a self-attention layer and CNN to extract deep features and compute key components for the LSTM decoder.
+    
     **Bidirectional LSTM as the Decoder:** Processes the input from the ACNN encoder, capturing long-term time series features and temporal dependencies.
 
 **Purpose of Each Component:**
